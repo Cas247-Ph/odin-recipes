@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: #c2c2c2;
+}
+
+.wrapper {
+    width: 70%;
+    max-width: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fffcfc;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 20px 30px 10px rgba(0, 0, 0, .3);
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chef--image > img {
+    padding-left: 60px;
+}
+
+.github {
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
+
+.github > a > img {
+    width: 20px;
+    height: 20px;
+}
+
+.logo {
+    margin-bottom: 50px;
+    color: #000;
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+}
+
+.menu {
+    font-size: 2rem;
+    font-weight: 1000px;
+}
+
+.menu > p {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #3B1214;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #c4a383;
+    border-bottom: 5px solid #c4a383;
+}
